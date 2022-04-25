@@ -1,0 +1,92 @@
+/* NAVBAR */
+.nav {
+  justify-content: center;
+}
+
+.navbar, .title {
+  padding: 0 0 0.3rem;
+  background-color: #193737;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #000D6B;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: white;
+}
+
+.nav-link:hover {
+  color: Grey;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  padding: 1% 7% 15% 7%;
+}
+
+.title-head {
+  font-size: 3rem;
+  color: white;
+  font-family: serif;
+}
+
+.title-p {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+#tips {
+  background-color: #193737;
+}
+
+.post {
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-bottom: 5%;
+}
+
+.red {
+  margin: 1%;
+  background-color: red;
+  width: 400px;
+  height: 600px;
+}
+
+.acc {
+  padding: 3%;
+}
+
+.WTE {
+  padding: 7% 15%;
+}
+
+/* NEWS CSS */
+.newblue {
+  margin: 2%;
+  padding: 3% 5%;
+  width: 600px;
+  height: 150px;
+  background-color: grey;
+}
+
+.endvent {
+  padding-top: 6%;
+  padding-left: 4%;
+  padding-bottom: 6%;
+  background-color: #193737;
+}

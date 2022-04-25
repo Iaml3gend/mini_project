@@ -1,0 +1,192 @@
+body {
+  padding-top: 3rem;
+}
+
+h1,
+p {
+  color: black;
+}
+
+/* NAVBAR */
+.nav {
+  justify-content: center;
+}
+
+.navbar,
+.title {
+  padding: 0 0 0.3rem;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: black;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.navbar-brand:hover {
+  color: #564ff5;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: black;
+}
+
+.nav-link:hover {
+  color: #564ff5;
+}
+
+.logbutton {
+  position: absolute;
+  right: 2rem;
+  padding-top: 0.4rem;
+}
+
+/* CAROUSEL */
+.carousel {
+  margin-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.carousel-caption {
+  bottom: 5rem;
+  z-index: 10;
+}
+
+.carousel-span {
+  font-weight: bold;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.caro-head {
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: "Montserrat";
+}
+
+.caro-head2 {
+  font-size: 4rem;
+}
+
+.caro-p {
+  font-size: 4rem;
+}
+
+.target {
+  position: absolute;
+  bottom: 3rem;
+  left: 6rem;
+  width: 28rem;
+}
+
+.event {
+  position: absolute;
+  bottom: 0;
+  left: 8rem;
+  width: 25rem;
+}
+
+/* MARKETING */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.marketing {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+  font-weight: 400;
+  background-color: white;
+}
+
+.mark-feat {
+  padding: 3% 5%;
+}
+
+.icon {
+  color: #193737;
+  margin-bottom: 1rem;
+  padding: 7% 10%;
+}
+
+.icon:hover {
+  color: #000;
+}
+
+.button:hover {
+  color: black;
+}
+
+/* Contact */
+.contact {
+  background-color: #fff;
+  padding: 2% 8%;
+  padding-bottom: 1%;
+}
+
+.support {
+  position: absolute;
+  right: 1.5rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 640px) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 640px) {
+  .caro-head {
+    font-size: 2rem;
+  }
+
+  .caro-head2 {
+    font-size: 2rem;
+  }
+  .caro-p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .event,
+  .target {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .support {
+    display: none;
+  }
+}

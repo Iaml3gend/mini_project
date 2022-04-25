@@ -1,0 +1,161 @@
+ul {
+  color: black;
+}
+
+h2 {
+  color: #0F044C;
+}
+
+b {
+  color: #193737;
+}
+
+p, ul{
+  color: #40514E;
+}
+
+/* NAVBAR */
+.nav {
+  justify-content: center;
+}
+
+.navbar, .title {
+  padding: 0 0 0.3rem;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.navbar-brand:hover {
+  color: #0F044C;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #0F044C;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  padding: 1% 7% 7% 7%;
+}
+
+.title-head {
+  font-size: 4rem;
+  color: #000;
+  font-family: serif;
+  text-align: center;
+}
+
+.title-p {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/* NEWS CSS */
+.newblue {
+  margin: 0;
+  padding: 4% 7% 3% 7%;
+  /* width: 600px;
+  height: 150px; */
+  background-color: #fff;
+  text-align: left;
+}
+
+.lm-btn:hover {
+  background-color: #0F044C;
+}
+
+.endvent {
+  padding: 3rem 10rem 3rem 10rem;
+  background-color: #fff;
+}
+
+.evimg {
+  float: left;
+  width: 12rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+}
+
+.tcsimg {
+  float: left;
+  width: 12rem;
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+.wedimg {
+  float: left;
+  width: 13rem;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
+
+.tfimg {
+  float: left;
+  width: 14rem;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
+
+.hcimg {
+  float: left;
+  width: 14rem;
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+.newblue:hover {
+  background-color: #E4EFE7;
+}
+
+@media (max-width :996px) {
+  .news-h {
+    font-size: 2.5rem;
+    padding-left: 4rem;
+    line-height: 1rem;
+  }
+  .news-p {
+    font-size: 1.5rem;
+  }
+  .news-img {
+    visibility: hidden;
+
+  }
+  .endvent {
+    padding-left: 11rem;
+  }
+  .post {
+    padding-left: 9%;
+  }
+}
+
+@media (max-width : 630px) {
+  .endvent {
+    padding-left: 1.5rem;
+  }
+  .newblue {
+    width: 450px;
+    height: 150px;
+    padding-left: 1rem;
+  }
+  .post {
+    padding-left: 11%;
+  }
+}
